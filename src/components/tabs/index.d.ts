@@ -2,10 +2,10 @@
 // Tabs
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const TabsPlugin: BvPlugin
+export declare const TabsPlugin: desikit_plugin
 
 // Component: b-tabs
 export declare class BTabs extends BvComponent {}

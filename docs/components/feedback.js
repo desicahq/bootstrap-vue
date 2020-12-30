@@ -3,7 +3,7 @@ export default {
   name: 'BVFeedback',
   data() {
     return {
-      baseUrl: 'https://github.com/bootstrap-vue/bootstrap-vue'
+      baseUrl: 'https://github.com/desicahq/desikit'
     }
   },
   computed: {

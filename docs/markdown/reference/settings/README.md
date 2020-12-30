@@ -96,7 +96,7 @@ props instead of `sm`, `md`, `lg` and `xl` props (similar for the `label-cols-{b
 `label-align-{breakpoint}` props on `<b-form-group>`):
 
 ```js
-import BootstrapVue from 'bootstrap-vue'
+import BootstrapVue from 'desikit'
 
 Vue.use(BootstrapVue, {
   breakpoints: [`xs`, 'sm', 'md', 'lg', 'xl', 'xxl']
@@ -106,7 +106,7 @@ Vue.use(BootstrapVue, {
 Or if changing the default variants for `<b-button>` and `<b-alert>`:
 
 ```js
-import BootstrapVue from 'bootstrap-vue'
+import BootstrapVue from 'desikit'
 
 Vue.use(BootstrapVue, {
   BAlert: { variant: 'danger' },
@@ -136,7 +136,7 @@ and subsequent changes to the breakpoints will **not** be reflected.
 <!-- eslint-disable import/first, import/no-duplicates -->
 
 ```js
-import { LayoutPlugin, AlertPlugin, ButtonPlugin } from 'bootstrap-vue'
+import { LayoutPlugin, AlertPlugin, ButtonPlugin } from 'desikit'
 
 // Supply configs via each plugin as it is `Vue.use()`'d
 Vue.use(LayoutPlugin, { breakpoints: ['xs', 'sm', 'lg', 'xl', 'xxl'] })
@@ -149,7 +149,7 @@ Vue.use(ButtonPlugin, { BButton: { variant: 'primary' } })
 <!-- eslint-disable import/first, import/no-duplicates -->
 
 ```js
-import { LayoutPlugin, AlertPlugin, ButtonPlugin } from 'bootstrap-vue'
+import { LayoutPlugin, AlertPlugin, ButtonPlugin } from 'desikit'
 
 // Supply complete config to first `Vue.use()`'d plugin
 Vue.use(LayoutPlugin, {
@@ -166,7 +166,7 @@ Vue.use(ButtonPlugin)
 <!-- eslint-disable import/first, import/no-duplicates -->
 
 ```js
-import { BVConfigPlugin, LayoutPlugin, AlertPlugin, ButtonPlugin } from 'bootstrap-vue'
+import { BVConfigPlugin, LayoutPlugin, AlertPlugin, ButtonPlugin } from 'desikit'
 
 // Supply complete config to the BVConfigPlugin helper plugin
 Vue.use(BVConfigPlugin, {
@@ -186,7 +186,7 @@ Vue.use(ButtonPlugin)
 <!-- eslint-disable import/first, import/no-duplicates -->
 
 ```js
-import { BVConfigPlugin, BAlert, BButton, BRow, BCol } from 'bootstrap-vue'
+import { BVConfigPlugin, BAlert, BButton, BRow, BCol } from 'desikit'
 
 // Supply complete config to the BVConfig helper plugin
 Vue.use(BVConfigPlugin, {

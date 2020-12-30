@@ -2,10 +2,10 @@
 // Alert
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormRatingPlugin: BvPlugin
+export declare const FormRatingPlugin: desikit_plugin
 
 // Component: b-alert
 export declare class BFormRating extends BvComponent {

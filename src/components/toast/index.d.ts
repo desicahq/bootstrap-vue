@@ -2,10 +2,10 @@
 // Toast
 //
 import Vue, { VNode } from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Toast Plugin
-export declare const ToastPlugin: BvPlugin
+export declare const ToastPlugin: desikit_plugin
 
 // Component: b-toast
 export declare class BToast extends BvComponent {

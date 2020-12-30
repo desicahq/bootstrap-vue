@@ -39,54 +39,54 @@ echo ''
 echo 'Minify JS...'
 # We instruct terser to preserve our `Bv*Event` class names and
 # safe types (i.e. `Element`, etc.) when mangling top level names
-terser dist/bootstrap-vue.js \
+terser dist/desikit.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue.js.map,includeSources,url=bootstrap-vue.min.js.map" \
-    --output dist/bootstrap-vue.min.js
-terser dist/bootstrap-vue-icons.js \
+    --source-map "content=dist/desikit.js.map,includeSources,url=desikit.min.js.map" \
+    --output dist/desikit.min.js
+terser dist/desikit-icons.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue-icons.js.map,includeSources,url=bootstrap-vue-icons.min.js.map" \
-    --output dist/bootstrap-vue-icons.min.js
-terser dist/bootstrap-vue.common.js \
+    --source-map "content=dist/desikit-icons.js.map,includeSources,url=desikit-icons.min.js.map" \
+    --output dist/desikit-icons.min.js
+terser dist/desikit.common.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue.common.js.map,includeSources,url=bootstrap-vue.common.min.js.map" \
-    --output dist/bootstrap-vue.common.min.js
-terser dist/bootstrap-vue-icons.common.js \
+    --source-map "content=dist/desikit.common.js.map,includeSources,url=desikit.common.min.js.map" \
+    --output dist/desikit.common.min.js
+terser dist/desikit-icons.common.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue-icons.common.js.map,includeSources,url=bootstrap-vue-icons.common.min.js.map" \
-    --output dist/bootstrap-vue-icons.common.min.js
-terser dist/bootstrap-vue.esm.js \
+    --source-map "content=dist/desikit-icons.common.js.map,includeSources,url=desikit-icons.common.min.js.map" \
+    --output dist/desikit-icons.common.min.js
+terser dist/desikit.esm.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue.esm.js.map,includeSources,url=bootstrap-vue.esm.min.js.map" \
-    --output dist/bootstrap-vue.esm.min.js
-terser dist/bootstrap-vue-icons.esm.js \
+    --source-map "content=dist/desikit.esm.js.map,includeSources,url=desikit.esm.min.js.map" \
+    --output dist/desikit.esm.min.js
+terser dist/desikit-icons.esm.js \
     --compress typeofs=false \
     --mangle reserved=['BvEvent','BvModalEvent','Element','HTMLElement','SVGElement'] \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/bootstrap-vue-icons.esm.js.map,includeSources,url=bootstrap-vue-icons.esm.min.js.map" \
-    --output dist/bootstrap-vue-icons.esm.min.js
+    --source-map "content=dist/desikit-icons.esm.js.map,includeSources,url=desikit-icons.esm.min.js.map" \
+    --output dist/desikit-icons.esm.min.js
 echo 'Done.'
 echo ''
 
@@ -96,17 +96,17 @@ SASS_PATH=node_modules sass --style expanded \
     --embed-source-map \
     --precision 6 \
     scripts/index.scss \
-    dist/bootstrap-vue.css
+    dist/desikit.css
 postcss --config scripts/postcss.config.js \
-    --replace dist/bootstrap-vue.css
+    --replace dist/desikit.css
 # BootstrapVue Icons only CSS
 SASS_PATH=node_modules sass --style expanded \
     --embed-source-map \
     --precision 6 \
     scripts/icons.scss \
-    dist/bootstrap-vue-icons.css
+    dist/desikit-icons.css
 postcss --config scripts/postcss.config.js \
-    --replace dist/bootstrap-vue-icons.css
+    --replace dist/desikit-icons.css
 echo 'Done.'
 echo ''
 
@@ -116,15 +116,15 @@ cleancss --level 1 \
     --format breaksWith=lf \
     --source-map \
     --source-map-inline-sources \
-    --output dist/bootstrap-vue.min.css \
-    dist/bootstrap-vue.css
+    --output dist/desikit.min.css \
+    dist/desikit.css
 # Icons only CSS
 cleancss --level 1 \
     --format breaksWith=lf \
     --source-map \
     --source-map-inline-sources \
-    --output dist/bootstrap-vue-icons.min.css \
-    dist/bootstrap-vue-icons.css
+    --output dist/desikit-icons.min.css \
+    dist/desikit-icons.css
 echo 'Done.'
 echo ''
 

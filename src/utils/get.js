@@ -21,9 +21,9 @@ export const getRaw = (obj, path, defaultValue = undefined) => {
   }
 
   // Handle edge case where user has dot(s) in top-level item field key
-  // See https://github.com/bootstrap-vue/bootstrap-vue/issues/2762
+  // See https://github.com/desicahq/desicahq/issues/2762
   // Switched to `in` operator vs `hasOwnProperty` to handle obj.prototype getters
-  // https://github.com/bootstrap-vue/bootstrap-vue/issues/3463
+  // https://github.com/desicahq/desicahq/issues/3463
   if (path in obj) {
     return obj[path]
   }
@@ -40,7 +40,7 @@ export const getRaw = (obj, path, defaultValue = undefined) => {
 
   // Traverse path in object to find result
   // Switched to `in` operator vs `hasOwnProperty` to handle obj.prototype getters
-  // https://github.com/bootstrap-vue/bootstrap-vue/issues/3463
+  // https://github.com/desicahq/desicahq/issues/3463
   return steps.every(step => isObject(obj) && step in obj && !isUndefinedOrNull((obj = obj[step])))
     ? obj
     : isNull(obj)

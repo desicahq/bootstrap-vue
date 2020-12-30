@@ -2,10 +2,10 @@
 // Breadcrumb
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const BreadcrumbPlugin: BvPlugin
+export declare const BreadcrumbPlugin: desikit_plugin
 
 // Component: b-breadcrumb
 export declare class BBreadcrumb extends BvComponent {}

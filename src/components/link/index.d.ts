@@ -2,10 +2,10 @@
 // Link
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const LinkPlugin: BvPlugin
+export declare const LinkPlugin: desikit_plugin
 
 // Component: b-link
 export declare class BLink extends BvComponent {

@@ -1,9 +1,9 @@
 // --- Form Timepicker ---
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormTimepickerPlugin: BvPlugin
+export declare const FormTimepickerPlugin: desikit_plugin
 
 // Component: b-form-timepicker
 export declare class BFormTimepicker extends BvComponent {

@@ -2,10 +2,10 @@
 // Form Select
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormSelectPlugin: BvPlugin
+export declare const FormSelectPlugin: desikit_plugin
 
 // Component: b-form-select
 export declare class BFormSelect extends BvComponent {}

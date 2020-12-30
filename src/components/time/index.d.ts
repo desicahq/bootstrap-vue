@@ -1,9 +1,9 @@
 // --- Time ---
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const TimePlugin: BvPlugin
+export declare const TimePlugin: desikit_plugin
 
 // Component: b-time
 export declare class BTime extends BvComponent {

@@ -841,7 +841,7 @@ You can easily create a custom wrapper component with your preferred rendering s
 </template>
 
 <script>
-  import { BFormTags } from 'bootstrap-vue'
+  import { BFormTags } from 'desikit'
 
   export default {
     name: 'MyCustomTags',

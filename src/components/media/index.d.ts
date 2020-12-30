@@ -2,10 +2,10 @@
 // Media
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const MediaPlugin: BvPlugin
+export declare const MediaPlugin: desikit_plugin
 
 // Component: b-media
 export declare class BMedia extends BvComponent {}

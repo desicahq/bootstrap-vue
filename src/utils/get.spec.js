@@ -48,7 +48,7 @@ describe('get', () => {
   })
 
   it('handles when field name has dot', async () => {
-    // https://github.com/bootstrap-vue/bootstrap-vue/issues/2762
+    // https://github.com/desicahq/desicahq/issues/2762
     const obj1 = {
       'a.b': 'foo',
       a: { b: 'fiz' },
@@ -83,7 +83,7 @@ describe('get', () => {
   })
 
   it('handles when field value is not array or object', async () => {
-    // https://github.com/bootstrap-vue/bootstrap-vue/issues/2807
+    // https://github.com/desicahq/desicahq/issues/2807
     const obj1 = {
       a: { b: 'c' },
       b: [{ c: 'd' }],

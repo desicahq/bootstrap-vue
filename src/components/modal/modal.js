@@ -245,7 +245,7 @@ export const BModal = /*#__PURE__*/ Vue.extend({
       return {
         paddingLeft: !this.isBodyOverflowing && this.isModalOverflowing ? sbWidth : '',
         paddingRight: this.isBodyOverflowing && !this.isModalOverflowing ? sbWidth : '',
-        // Needed to fix issue https://github.com/bootstrap-vue/bootstrap-vue/issues/3457
+        // Needed to fix issue https://github.com/desicahq/desicahq/issues/3457
         // Even though we are using v-show, we must ensure 'none' is restored in the styles
         display: this.isBlock ? 'block' : 'none'
       }
@@ -504,7 +504,7 @@ export const BModal = /*#__PURE__*/ Vue.extend({
       // Will be overridden by some commands such as toggle, etc.
       // Note: On IE 11, `document.activeElement` may be `null`
       // So we test it for truthiness first
-      // https://github.com/bootstrap-vue/bootstrap-vue/issues/3206
+      // https://github.com/desicahq/desicahq/issues/3206
       return activeElement && activeElement.focus ? activeElement : null
     },
     // Private method to finish showing modal

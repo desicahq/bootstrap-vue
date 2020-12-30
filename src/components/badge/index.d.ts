@@ -2,10 +2,10 @@
 // Badge
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const BadgePlugin: BvPlugin
+export declare const BadgePlugin: desikit_plugin
 
 // Component: b-badge
 export declare class BBadge extends BvComponent {}

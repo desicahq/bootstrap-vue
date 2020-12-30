@@ -126,7 +126,7 @@ import hljs from '../utils/hljs'
 import { getComponentName, kebabCase } from '../utils'
 import AnchoredHeading from './anchored-heading'
 
-const importPath = 'bootstrap-vue'
+const importPath = 'desikit'
 
 export default {
   name: 'BVImportdoc',
@@ -136,7 +136,7 @@ export default {
   },
   computed: {
     importPath() {
-      return 'bootstrap-vue'
+      return 'desikit'
     },
     isComponentRoute() {
       const name = this.$route.name
@@ -209,7 +209,7 @@ export default {
     },
     pluginImportCode() {
       return [
-        `import { ${this.pluginName} } from 'bootstrap-vue'`,
+        `import { ${this.pluginName} } from 'desikit'`,
         `Vue.use(${this.pluginName})`
       ].join('\n')
     }

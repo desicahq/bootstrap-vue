@@ -2,10 +2,10 @@
 // Progress
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const ProgressPlugin: BvPlugin
+export declare const ProgressPlugin: desikit_plugin
 
 // Component: b-progress
 export declare class BProgress extends BvComponent {}

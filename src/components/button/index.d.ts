@@ -2,10 +2,10 @@
 // Buttons
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const ButtonPlugin: BvPlugin
+export declare const ButtonPlugin: desikit_plugin
 
 // Component: b-button
 export declare class BButton extends BvComponent {}

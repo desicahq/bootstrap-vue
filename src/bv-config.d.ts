@@ -1,4 +1,4 @@
 import Vue, { PluginFunction, PluginObject } from 'vue'
-import { BvPlugin } from './'
+import { desikit_plugin } from './'
 
-export declare const BVConfigPlugin: BvPlugin
+export declare const BVConfigPlugin: desikit_plugin

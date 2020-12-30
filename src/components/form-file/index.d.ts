@@ -2,10 +2,10 @@
 // Form File
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormFilePlugin: BvPlugin
+export declare const FormFilePlugin: desikit_plugin
 
 // Component: b-form-file
 export declare class BFormFile extends BvComponent {

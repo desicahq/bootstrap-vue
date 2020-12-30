@@ -2,10 +2,10 @@
 // Overlay
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const OverlayPlugin: BvPlugin
+export declare const OverlayPlugin: desikit_plugin
 
 // Component: b-overlay
 export declare class BOverlay extends BvComponent {}

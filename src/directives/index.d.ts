@@ -1,7 +1,7 @@
-import { BvPlugin } from '../'
+import { desikit_plugin } from '../'
 
 // Plugin that installs all plugins
-export declare const directivesPlugin: BvPlugin
+export declare const directivesPlugin: desikit_plugin
 
 // Named exports of all directives
 export * from './hover'

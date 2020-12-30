@@ -2,10 +2,10 @@
 // Tooltip
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const TooltipPlugin: BvPlugin
+export declare const TooltipPlugin: desikit_plugin
 
 // Component: b-tooltip
 export declare class BTooltip extends BvComponent {}

@@ -780,7 +780,7 @@ describe('pagination', () => {
   })
 
   it('changing the number of pages to less than current page number resets to page 1', async () => {
-    // https://github.com/bootstrap-vue/bootstrap-vue/issues/3716
+    // https://github.com/desicahq/desicahq/issues/3716
     const wrapper = mount(BPagination, {
       propsData: {
         totalRows: 10,
@@ -842,7 +842,7 @@ describe('pagination', () => {
   })
 
   it('changing per-page resets to page 1', async () => {
-    // https://github.com/bootstrap-vue/bootstrap-vue/issues/2987
+    // https://github.com/desicahq/desicahq/issues/2987
     const wrapper = mount(BPagination, {
       propsData: {
         totalRows: 10,

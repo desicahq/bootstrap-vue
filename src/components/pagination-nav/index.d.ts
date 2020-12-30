@@ -2,10 +2,10 @@
 // PaginationNav
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const PaginationNavPlugin: BvPlugin
+export declare const PaginationNavPlugin: desikit_plugin
 
 // Component: b-pagination-nav
 export declare class BPaginationNav extends BvComponent {}

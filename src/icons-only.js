@@ -8,8 +8,8 @@ export {
   // Installer exported just in case the consumer does not import `default`
   // as the plugin in CommonJS build (or does not have interop enabled
   // for CommonJS). Both the following will work:
-  //   BootstrapVueIcons = require('bootstrap-vue/dist/bootstrap-vue-icons.common')
-  //   BootstrapVueIcons = require('bootstrap-vue/dist/bootstrap-vue-icons.common').default
+  //   BootstrapVueIcons = require('desicahq/dist/desikit-icons.common')
+  //   BootstrapVueIcons = require('desicahq/dist/desikit-icons.common').default
   //   Vue.use(BootstrapVueIcons)
   install,
   NAME,

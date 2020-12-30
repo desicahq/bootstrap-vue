@@ -100,7 +100,7 @@ const BVTabButton = /*#__PURE__*/ Vue.extend({
       } else if (type === 'keydown' && keyCode === CODE_SPACE) {
         // For ARIA tabs the SPACE key will also trigger a click/select
         // Even with keyboard navigation disabled, SPACE should "click" the button
-        // See: https://github.com/bootstrap-vue/bootstrap-vue/issues/4323
+        // See: https://github.com/desicahq/desicahq/issues/4323
         stopEvent(event)
         this.$emit(EVENT_NAME_CLICK, event)
       } else if (type === 'keydown' && !this.noKeyNav) {

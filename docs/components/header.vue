@@ -71,7 +71,7 @@
       </b-nav-item-dropdown>
 
       <b-nav-item
-        href="https://github.com/bootstrap-vue/bootstrap-vue"
+        href="https://github.com/desicahq/desikit"
         target="_blank"
         :link-attrs="{ 'aria-label': 'GitHub' }"
       >
@@ -139,7 +139,7 @@
       </b-nav-item>
 
       <b-nav-item
-        href="https://opencollective.com/bootstrap-vue/"
+        href="https://opencollective.com/desicahq/"
         target="_blank"
         :link-attrs="{ 'aria-label': 'Open Collective' }"
       >

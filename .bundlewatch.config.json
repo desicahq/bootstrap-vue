@@ -1,67 +1,67 @@
 {
   "files": [
     {
-      "path": "./dist/bootstrap-vue-icons.js",
+      "path": "./dist/desikit-icons.js",
       "maxSize": "130 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.min.js",
+      "path": "./dist/desikit-icons.min.js",
       "maxSize": "120 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.common.js",
+      "path": "./dist/desikit-icons.common.js",
       "maxSize": "130 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.common.min.js",
+      "path": "./dist/desikit-icons.common.min.js",
       "maxSize": "120 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.esm.js",
+      "path": "./dist/desikit-icons.esm.js",
       "maxSize": "130 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.esm.min.js",
+      "path": "./dist/desikit-icons.esm.min.js",
       "maxSize": "120 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.css",
+      "path": "./dist/desikit-icons.css",
       "maxSize": "1.5 kB"
     },
     {
-      "path": "./dist/bootstrap-vue-icons.min.css",
+      "path": "./dist/desikit-icons.min.css",
       "maxSize": "1 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.js",
+      "path": "./dist/desikit.js",
       "maxSize": "240 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.min.js",
+      "path": "./dist/desikit.min.js",
       "maxSize": "105 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.common.js",
+      "path": "./dist/desikit.common.js",
       "maxSize": "330 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.common.min.js",
+      "path": "./dist/desikit.common.min.js",
       "maxSize": "205 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.esm.js",
+      "path": "./dist/desikit.esm.js",
       "maxSize": "330 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.esm.min.js",
+      "path": "./dist/desikit.esm.min.js",
       "maxSize": "205 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.css",
+      "path": "./dist/desikit.css",
       "maxSize": "15 kB"
     },
     {
-      "path": "./dist/bootstrap-vue.min.css",
+      "path": "./dist/desikit.min.css",
       "maxSize": "10 kB"
     }
   ],

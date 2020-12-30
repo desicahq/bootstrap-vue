@@ -2,12 +2,12 @@
 // Table
 //
 import Vue, { VNode } from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Table Plugins
-export declare const TablePlugin: BvPlugin
-export declare const TableLitePlugin: BvPlugin
-export declare const TableSimplePlugin: BvPlugin
+export declare const TablePlugin: desikit_plugin
+export declare const TableLitePlugin: desikit_plugin
+export declare const TableSimplePlugin: desikit_plugin
 
 // Component: b-table
 export declare class BTable extends BvComponent {

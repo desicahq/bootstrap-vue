@@ -2,11 +2,11 @@
 // Icons
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../'
+import { desikit_plugin, BvComponent } from '../'
 
 // Plugin
-export declare const IconsPlugin: BvPlugin
-export declare const BootstrapVueIcons: BvPlugin
+export declare const IconsPlugin: desikit_plugin
+export declare const BootstrapVueIcons: desikit_plugin
 
 // Component: b-icon
 export declare class BIcon extends BvComponent {}

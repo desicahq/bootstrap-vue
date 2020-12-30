@@ -2,10 +2,10 @@
 // Skeleton
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const SkeletonPlugin: BvPlugin
+export declare const SkeletonPlugin: desikit_plugin
 
 // Component: b-skeleton
 export declare class BSkeleton extends BvComponent {}

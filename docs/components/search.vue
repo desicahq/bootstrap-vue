@@ -36,7 +36,7 @@ export default {
       }
 
       // Search indexing config stored at:
-      // https://github.com/algolia/docsearch-configs/blob/master/configs/bootstrap-vue.json
+      // https://github.com/algolia/docsearch-configs/blob/master/configs/desikit.json
 
       const cdnBaseUrl = '//cdn.jsdelivr.net/docsearch.js/2/'
       const $body = document.body
@@ -71,7 +71,7 @@ export default {
       // Initialize docsearch
       this.docsearch = window.docsearch({
         apiKey: 'c816d3054b015320f0cfb40042f7e2bc',
-        indexName: 'bootstrap-vue',
+        indexName: 'desikit',
         inputSelector: '#bd-search-input',
         transformData(hits) {
           return hits.map(function(hit) {

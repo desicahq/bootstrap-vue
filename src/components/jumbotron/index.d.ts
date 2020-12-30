@@ -2,10 +2,10 @@
 // Jumbotron
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const JumbotronPlugin: BvPlugin
+export declare const JumbotronPlugin: desikit_plugin
 
 // Component: b-jumbotron
 export declare class BJumbotron extends BvComponent {}

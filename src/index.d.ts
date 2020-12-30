@@ -19,7 +19,7 @@ export interface BvConfigOptions {
 }
 
 // Plugin definition
-export interface BvPlugin extends PluginObject<BvConfigOptions> {
+export interface desikit_plugin extends PluginObject<BvConfigOptions> {
   install: PluginFunction<BvConfigOptions>
 }
 
@@ -60,7 +60,7 @@ export * from './icons'
 export * from './directives'
 
 // BootstrapVue plugin
-export interface BootstrapVuePlugin extends BvPlugin {
+export interface BootstrapVuePlugin extends desikit_plugin {
   setConfig: (config: BvConfigOptions) => void
 }
 export declare const BootstrapVue: BootstrapVuePlugin

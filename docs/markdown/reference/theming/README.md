@@ -5,7 +5,7 @@
 
 While BootstrapVue uses Bootstrap's CSS, certain features of BootstrapVue use custom CSS (i.e.
 stacked tables, etc.). Our custom CSS relies on variables defined the Bootstrap v4.x SCSS. The
-`bootstrap-vue/dist/bootstrap-vue.css` is compiled using the default Bootstrap v4.x variables. By
+`desicahq/dist/desikit.css` is compiled using the default Bootstrap v4.x variables. By
 using the BootstrapVue source SCSS, you can have your variable overrides (such as breakpoints, theme
 colors, etc.) adjust the custom BootstrapVue css generation.
 
@@ -39,7 +39,7 @@ $body-color: #111;
 // Bootstrap and its default variables
 @import '../node_modules/bootstrap/scss/bootstrap';
 // BootstrapVue and its default variables
-@import '../node_modules/bootstrap-vue/src/index.scss';
+@import '../node_modules/desicahq/src/index.scss';
 ```
 
 ## Default theme colors
@@ -115,7 +115,7 @@ generation to reduce the size of BootstrapVue's custom CSS bundle:
 | `$bv-enable-popover-variants` | Boolean | `true`  | Enables popover variant CSS generation                |
 
 You can find additional variables that control various aspects of BootstrapVue's custom CSS at
-[`bootstrap-vue/src/_variables.scss`](https://github.com/bootstrap-vue/bootstrap-vue/blob/master/src/_variables.scss).
+[`desicahq/src/_variables.scss`](https://github.com/desicahq/desicahq/blob/master/src/_variables.scss).
 Note that BootstrapVue's custom SCSS relies on Bootstrap's SASS variables, functions, and mixins.
 
 ## Generating custom themes
@@ -133,7 +133,7 @@ your project, which you can include in your main app `app.vue` file:
 
   // Import Bootstrap and BootstrapVue source SCSS files
   @import '~bootstrap/scss/bootstrap.scss';
-  @import '~bootstrap-vue/src/index.scss';
+  @import '~desicahq/src/index.scss';
 
   // General style overrides and custom classes
   body {
@@ -173,7 +173,7 @@ $bv-enable-table-stacked: false;
 
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+@import '~desicahq/src/index.scss';
 
 // General style overrides and custom classes
 body {

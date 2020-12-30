@@ -1,9 +1,9 @@
 // --- Modals ---
 import Vue, { VNode } from 'vue'
-import { BvPlugin, BvComponent, BvEvent } from '../../'
+import { desikit_plugin, BvComponent, BvEvent } from '../../'
 
 // Modal plugin
-export declare const ModalPlugin: BvPlugin
+export declare const ModalPlugin: desikit_plugin
 
 // Component: <b-modal>
 export declare class BModal extends BvComponent {

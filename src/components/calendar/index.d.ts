@@ -1,9 +1,9 @@
 // --- Calendar ---
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const CalendarPlugin: BvPlugin
+export declare const CalendarPlugin: desikit_plugin
 
 // Component: b-calendar
 export declare class BCalendar extends BvComponent {

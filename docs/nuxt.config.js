@@ -23,10 +23,10 @@ const RX_CODE_FILENAME = /^\/\/ ([\w,\s-]+\.[A-Za-z]{1,4})\n/m
 const ANCHOR_LINK_HEADING_LEVELS = [2, 3, 4, 5]
 
 // Determine if documentation generation is published production docs
-// Must be from 'bootstrap-vue/bootstrap-vue' repo 'master' branch
+// Must be from 'desicahq/desikit' repo 'master' branch
 const IS_PROD_DOCS =
-  process.env.VERCEL_GITHUB_ORG === 'bootstrap-vue' &&
-  process.env.VERCEL_GITHUB_REPO === 'bootstrap-vue' &&
+  process.env.VERCEL_GITHUB_ORG === 'desikit' &&
+  process.env.VERCEL_GITHUB_REPO === 'desikit' &&
   process.env.VERCEL_GITHUB_COMMIT_REF === 'master'
 
 // --- Utility methods ---
@@ -153,7 +153,7 @@ module.exports = {
     // - `true` if on Netlify (dev or PR)
     NETLIFY: process.env.NETLIFY,
     // Determines the context from netlify (`production`, `deploy-preview` or `branch-deploy`)
-    // In our case, `production` means the dev branch (bootstrap-vue.netlify.com)
+    // In our case, `production` means the dev branch (desikit.netlify.com)
     NETLIFY_CONTEXT: process.env.NETLIFY ? process.env.CONTEXT : null,
     // - `true` if triggered by a Pull request commit
     PULL_REQUEST: process.env.NETLIFY ? process.env.PULL_REQUEST : null,
@@ -169,9 +169,9 @@ module.exports = {
     VERCEL_COMMIT_SHA: process.env.VERCEL_GITHUB_COMMIT_SHA,
     // - The deployment URL
     VERCEL_URL: process.env.VERCEL_URL,
-    // - The Github Organization (ie. bootstrap-vue)
+    // - The Github Organization (ie. desikit)
     VERCEL_GITHUB_ORG: process.env.VERCEL_GITHUB_ORG,
-    // - The repo is the organization (i.e. bootstrap-vue)
+    // - The repo is the organization (i.e. desikit)
     VERCEL_GITHUB_REPO: process.env.VERCEL_GITHUB_REPO
   },
 
@@ -280,7 +280,7 @@ module.exports = {
     ]
   },
 
-  plugins: ['~/plugins/bootstrap-vue.js', '~/plugins/play.js', '~/plugins/docs.js'],
+  plugins: ['~/plugins/desikit.js', '~/plugins/play.js', '~/plugins/docs.js'],
 
   buildModules: ['@nuxtjs/google-analytics'],
   modules: ['@nuxt/content', '@nuxtjs/pwa', '@nuxtjs/robots', '@nuxtjs/sitemap'],

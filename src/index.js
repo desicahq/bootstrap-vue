@@ -24,8 +24,8 @@ export {
   // Installer exported in case the consumer does not import `default`
   // as the plugin in CommonJS build (or does not have interop enabled for CommonJS)
   // Both the following will work:
-  //   BootstrapVue = require('bootstrap-vue')
-  //   BootstrapVue = require('bootstrap-vue').default
+  //   BootstrapVue = require('desikit')
+  //   BootstrapVue = require('desikit').default
   //   Vue.use(BootstrapVue)
   install,
   NAME,

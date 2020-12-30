@@ -69,7 +69,7 @@
 <script>
 import BVContributorsContainer from '~/components/contributors-container'
 
-const OC_BASE_URL = 'https://rest.opencollective.com/v2/bootstrap-vue/orders/'
+const OC_BASE_URL = 'https://rest.opencollective.com/v2/desicahq/orders/'
 const OC_DEFAULT_PARAMS = { status: 'active', tierSlug: null, limit: 200 }
 
 const MAX_BACKERS = 32

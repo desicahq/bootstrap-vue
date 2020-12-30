@@ -1,9 +1,9 @@
 // --- Form Datepicker ---
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormDatepickerPlugin: BvPlugin
+export declare const FormDatepickerPlugin: desikit_plugin
 
 // Component: b-form-datepicker
 export declare class BFormDatepicker extends BvComponent {

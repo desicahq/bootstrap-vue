@@ -1,7 +1,7 @@
-import { BvPlugin } from '../'
+import { desikit_plugin } from '../'
 
 // Plugin that installs all plugins
-export declare const componentsPlugin: BvPlugin
+export declare const componentsPlugin: desikit_plugin
 
 // Export all components as named exports
 export * from './alert'

@@ -121,7 +121,7 @@
               </b-col>
               <b-col md="4" lg="3">
                 <b-btn
-                  href="https://github.com/bootstrap-vue/bootstrap-vue"
+                  href="https://github.com/desicahq/desikit"
                   variant="outline-secondary"
                   size="lg"
                   target="_blank"
@@ -235,8 +235,8 @@
               <span>Free</span>
             </b-card-text>
             <b-card-text class="text-center">
-              Open sourced on <a href="https://github.com/bootstrap-vue/bootstrap-vue/" target="_blank">GitHub</a>,
-              <a href="https://github.com/bootstrap-vue/bootstrap-vue/blob/master/LICENSE" target="_blank">MIT</a> License
+              Open sourced on <a href="https://github.com/desicahq/desicahq/" target="_blank">GitHub</a>,
+              <a href="https://github.com/desicahq/desicahq/blob/master/LICENSE" target="_blank">MIT</a> License
             </b-card-text>
           </b-card>
         </b-card-group>
@@ -340,7 +340,7 @@
           Support BootstrapVue on Open Collective
         </h2>
         <b-button
-          href="https://opencollective.com/bootstrap-vue#sponsor"
+          href="https://opencollective.com/desikit#sponsor"
           size="sm"
           variant="outline-secondary"
           target="_blank"
@@ -349,7 +349,7 @@
           Become a sponsor
         </b-button>
         <b-button
-          href="https://opencollective.com/bootstrap-vue#backer"
+          href="https://opencollective.com/desikit#backer"
           size="sm"
           variant="outline-secondary"
           target="_blank"
@@ -358,7 +358,7 @@
           Become a backer
         </b-button>
         <b-button
-          href="https://opencollective.com/bootstrap-vue#donate"
+          href="https://opencollective.com/desikit#donate"
           size="sm"
           variant="outline-secondary"
           target="_blank"

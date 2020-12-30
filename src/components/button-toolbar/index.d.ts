@@ -2,10 +2,10 @@
 // Button Toolbar
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const ButtonToolbarPlugin: BvPlugin
+export declare const ButtonToolbarPlugin: desikit_plugin
 
 // Component: b-button-toolbar
 export declare class BButtonToolbar extends BvComponent {}

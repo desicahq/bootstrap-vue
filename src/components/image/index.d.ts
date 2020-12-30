@@ -2,10 +2,10 @@
 // Image
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const ImagePlugin: BvPlugin
+export declare const ImagePlugin: desikit_plugin
 
 // Component: b-img
 export declare class BImg extends BvComponent {}

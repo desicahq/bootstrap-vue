@@ -2,10 +2,10 @@
 // InputGroup
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const InputGroupPlugin: BvPlugin
+export declare const InputGroupPlugin: desikit_plugin
 
 // Component: b-input-group
 export declare class BInputGroup extends BvComponent {}

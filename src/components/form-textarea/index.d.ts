@@ -2,10 +2,10 @@
 // Form Textarea
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormTextareaPlugin: BvPlugin
+export declare const FormTextareaPlugin: desikit_plugin
 
 // Component: b-form-textarea
 export declare class BFormTextarea extends BvComponent {

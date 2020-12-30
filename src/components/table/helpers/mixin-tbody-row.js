@@ -221,7 +221,7 @@ export const tbodyRowMixin = Vue.extend({
       // Create a unique :key to help ensure that sub components are re-rendered rather than
       // re-used, which can cause issues. If a primary key is not provided we use the rendered
       // rows index within the tbody.
-      // See: https://github.com/bootstrap-vue/bootstrap-vue/issues/2410
+      // See: https://github.com/desicahq/desicahq/issues/2410
       const primaryKeyValue = toString(get(item, primaryKey)) || null
       const rowKey = primaryKeyValue || toString(rowIndex)
 

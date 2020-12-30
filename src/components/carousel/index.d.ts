@@ -2,10 +2,10 @@
 // Carousel
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const CarouselPlugin: BvPlugin
+export declare const CarouselPlugin: desikit_plugin
 
 // Component: b-carousel
 export declare class BCarousel extends BvComponent {

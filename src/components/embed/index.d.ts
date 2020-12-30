@@ -2,10 +2,10 @@
 // Embed
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const EmbedPlugin: BvPlugin
+export declare const EmbedPlugin: desikit_plugin
 
 // Component: b-embed
 export declare class BEmbed extends BvComponent {}

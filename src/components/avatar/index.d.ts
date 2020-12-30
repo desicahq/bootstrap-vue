@@ -2,10 +2,10 @@
 // Avatar
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const AvatarPlugin: BvPlugin
+export declare const AvatarPlugin: desikit_plugin
 
 // Component: b-avatar
 export declare class BAvatar extends BvComponent {}

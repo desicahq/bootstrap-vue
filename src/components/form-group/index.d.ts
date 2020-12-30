@@ -2,10 +2,10 @@
 // Form Group
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const FormGroupPlugin: BvPlugin
+export declare const FormGroupPlugin: desikit_plugin
 
 // Component: b-form-group
 export declare class BFormGroup extends BvComponent {}

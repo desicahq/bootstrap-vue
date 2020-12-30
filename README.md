@@ -30,9 +30,9 @@
 <h2 align="center">Partners</h2>
 
 <p align="center">
-  <a href="https://vercel.com/?utm_source=desikit" target="_blank" rel="noopener"><img src="https://github.com/bootstrap-vue/bootstrap-vue/raw/master/static/powered-by-vercel.svg" width="175" alt="Powered by Vercel"></a>
+  <a href="https://vercel.com/?utm_source=desikit" target="_blank" rel="noopener"><img src="https://github.com/desikit/desikit/raw/master/static/powered-by-vercel.svg" width="175" alt="Powered by Vercel"></a>
 </p>
 
 <h2 align="center">License</h2>
 
-Released under the MIT [License](./LICENSE). Copyright (c) Desica. This project is based of [Bootstrap Vue](https://github.com/Bootstrap-Vue/Bootstrap-Vue)
+Released under the MIT [License](./LICENSE). Copyright (c) Desica. This project is based of [Bootstrap Vue](https://github.com/desikit/desikit)

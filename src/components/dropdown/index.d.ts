@@ -2,10 +2,10 @@
 // Dropdown
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const DropdownPlugin: BvPlugin
+export declare const DropdownPlugin: desikit_plugin
 
 // Component: b-dropdown
 export declare class BDropdown extends BvComponent {

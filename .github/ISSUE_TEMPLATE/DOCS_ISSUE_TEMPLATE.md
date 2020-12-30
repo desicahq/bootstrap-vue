@@ -14,7 +14,7 @@ about: Help improve our docs.
 
 <!--
   If your issue is not regarding the documentation, please choose an issue type:
-  https://github.com/bootstrap-vue/bootstrap-vue/issues/new/choose
+  https://github.com/desikit/desikit/issues/new/choose
 -->
 
 ### Is there a specific documentation page you are reporting?

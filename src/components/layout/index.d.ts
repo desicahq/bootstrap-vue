@@ -2,10 +2,10 @@
 // Layout
 //
 import Vue from 'vue'
-import { BvPlugin, BvComponent } from '../../'
+import { desikit_plugin, BvComponent } from '../../'
 
 // Plugin
-export declare const LayoutPlugin: BvPlugin
+export declare const LayoutPlugin: desikit_plugin
 
 // Component: b-container
 export declare class BContainer extends BvComponent {}
