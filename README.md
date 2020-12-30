@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://beta.desikit.desica.uk/">
+  <a href="https://beta.kit.desica.uk/">
     <img src="https://static.desica.uk/hotlink-ok/Logo-Prod-Transparent-Purple%40Small.png" width="200">
   </a>
 </p>
