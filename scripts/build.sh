@@ -4,7 +4,7 @@ set -e
 BV_VERSION=$(node -p "require('./package.json').version")
 BV_BANNER=$(node -p "require('./scripts/banner')")
 
-echo "Building BootstrapVue ${BV_VERSION}"
+echo "Building desikit ${BV_VERSION}"
 echo ''
 
 echo 'Generating icon source files...'
