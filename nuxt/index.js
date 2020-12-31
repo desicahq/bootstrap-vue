@@ -51,7 +51,7 @@ module.exports = function nuxtBootstrapVue(moduleOptions = {}) {
     )
     if (bootstrapVueCSS) {
       // Add BootstrapVue CSS
-      this.options.css.unshift('desicahq/dist/desikit.css')
+      this.options.css.unshift('desikit/dist/desikit.css')
     }
 
     const bootstrapCSS = pickFirst(
