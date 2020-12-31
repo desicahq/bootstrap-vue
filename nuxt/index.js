@@ -6,7 +6,7 @@ const RX_UN_KEBAB = /-(\w)/g
 const RX_HYPHENATE = /\B([A-Z])/g
 
 // Path to index file when using desikit source code
-const srcIndex = 'desicahq/src/index.js'
+const srcIndex = 'desikit/src/index.js'
 
 // --- Utility methods ---
 
@@ -86,7 +86,7 @@ module.exports = function nuxtBootstrapVue(moduleOptions = {}) {
     }
 
     // Enable transpilation of `src/` directory
-    this.options.build.transpile.push('desicahq/src')
+    this.options.build.transpile.push('desikit/src')
 
     // Use pre-transpiled or `src/`
     const usePretranspiled = pickFirst(options.usePretranspiled, this.options.dev, false)
@@ -104,8 +104,8 @@ module.exports = function nuxtBootstrapVue(moduleOptions = {}) {
         config.resolve.alias['desikit$'] = index
         // If users are still cherry-picking modules from esm/ or es/ (legacy),
         // alias them to src/ to prevent duplicate code imports
-        config.resolve.alias['desicahq/esm/'] = srcDir
-        config.resolve.alias['desicahq/es/'] = srcDir
+        config.resolve.alias['desikit/esm/'] = srcDir
+        config.resolve.alias['desikit/es/'] = srcDir
       })
     }
 
