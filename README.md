@@ -30,7 +30,7 @@
 <h2 align="center">Partners</h2>
 
 <p align="center">
-  <a href="https://desica.uk/?utm_source=desikit" target="_blank" rel="noopener"><img src="https://static.desica.uk/hotlink-ok/badge.vg"></a>
+  <a href="https://desica.uk/?utm_source=desikit" target="_blank" rel="noopener"><img src="https://static.desica.uk/hotlink-ok/badge.svg"></a>
   <a href="https://vercel.com/?utm_source=desikit" target="_blank" rel="noopener"><img src="https://github.com/desicahq/desikit/raw/master/static/powered-by-vercel.svg" alt="Powered by Vercel" width="175"></a>
 </p>
 
